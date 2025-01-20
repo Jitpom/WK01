@@ -65,7 +65,7 @@ h1 {
     z-index: 5;
 }
 
-.heroimage{
+.heroimage {
     position: absolute;
     top: 50px;
     left: 420px;
@@ -102,11 +102,11 @@ h5 {
 }
 
 
-main{
-    padding: 80px 80px;    
+main {
+    padding: 80px 80px;
 }
 
-main > article{
+main>article {
     background: lightgrey;
     float: left;
     width: 30%;
@@ -118,21 +118,44 @@ main > article{
     box-sizing: border-box;
 }
 
-.last-article{
+.last-article {
     margin-right: 0%;
 }
 
-main > article > img{
+main>article>img {
     width: 100%;
 }
 
-main > article > h3{
+main>article>h3 {
     color: black;
     font-weight: bold;
     margin: 0;
     padding: 8px 16px;
 }
 
-main > article > p{
+main>article>p {
     padding: 0 16px;
+}
+
+.tab-container {
+    width: 100%;
+    padding: 80px;
+    background-color: lightgray;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.tab {
+    display: inline-block;
+    width: 100px;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+}
+
+.tab p {
+    text-align: center;
 }
