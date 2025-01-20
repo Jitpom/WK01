@@ -29,8 +29,17 @@ h1{
     margin-left: 16px;
 }
 
+.title{
+    color: aquamarine;
+}
+
+#hero{
+    color: lightpink;
+}
+
 h3{
     color: lightgray;
+    padding: 1px 2px 3px 4px;
     margin-left: 16px;
     font-size: 32px; /*Absolute size*/
 }
