@@ -159,3 +159,24 @@ main>article>p {
 .tab p {
     text-align: center;
 }
+
+footer{
+    background: darkslategray;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+footer > article{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+footer > article > img{
+    width: 100%;
+    height: auto;
+}
+
+footer > article > ul > li{
+    float:none;
+}
