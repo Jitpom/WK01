@@ -43,3 +43,7 @@ h3{
     margin-left: 16px;
     font-size: 32px; /*Absolute size*/
 }
+
+div > h3{
+    color: red;
+}
