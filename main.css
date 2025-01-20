@@ -177,6 +177,6 @@ footer > article > img{
     height: auto;
 }
 
-footer > article > ul > li{
+footer li{
     float:none;
 }
