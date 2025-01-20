@@ -25,6 +25,12 @@ h1{
     font-size: 5em;
     font-weight: bold;
     color: yellow;
-    margin-top: 80px;
+    margin-top: 250px;
     margin-left: 16px;
+}
+
+h3{
+    color: lightgray;
+    margin-left: 16px;
+    font-size: 32px; /*Absolute size*/
 }
