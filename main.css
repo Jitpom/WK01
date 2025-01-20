@@ -100,3 +100,33 @@ h5 {
 .clearfix {
     clear: both;
 }
+
+
+main{
+    padding: 32px 80px;
+}
+
+main > article{
+    background: lightgrey;
+    float: left;
+    width: 30%;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid lightslategrey;
+    overflow: hidden;
+}
+
+main > article > img{
+    width: 100%;
+}
+
+main > article > h3{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 16px;
+}
+
+main > article > p{
+    padding: 0 16px;
+}
