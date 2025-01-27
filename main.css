@@ -24,7 +24,7 @@ li {
     cursor: pointer;
 }
 
-li:hover{
+li:hover {
     color: yellow;
 }
 
@@ -168,42 +168,46 @@ main>article>p {
 }
 
 
-#content-container{
+#content-container {
     padding: 80px;
     background: white;
 }
 
-.box{
+.box {
     position: relative;
     background: brown;
     height: 300px;
     width: 300px;
     margin: 0 auto;
-    overflow: hidden;    
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.circle1{
+.circle1 {
     position: absolute;
     top: 200px;
     left: 200px;
     height: 200px;
     width: 200px;
     background: rgb(209, 179, 179);
-    border-radius: 50%; 
+    border-radius: 50%;
     transition: all 1s ease-in-out;
+    z-index: 2;
 }
-.circle2{
+
+.circle2 {
     position: absolute;
     bottom: 200px;
     right: 200px;
     height: 200px;
     width: 200px;
-    background: rgb(209, 179, 179);
+    background: rgb(179, 203, 209);
     border-radius: 50%;
-    transition: all 1s ease-in-out; 
+    transition: all 1s ease-in-out;
+    z-index: 3;
 }
 
-.box:hover .circle1{
+.box:hover .circle1 {
     border-radius: 0;
     width: 300px;
     height: 300px;
@@ -212,7 +216,7 @@ main>article>p {
 }
 
 
-.box:hover .circle2{
+.box:hover .circle2 {
     border-radius: 0;
     width: 300px;
     height: 300px;
@@ -220,23 +224,23 @@ main>article>p {
     right: 0;
 }
 
-footer{
+footer {
     background: darkslategray;
     padding: 80px;
     box-sizing: border-box;
 }
 
-footer > article{
+footer>article {
     width: 25%;
     float: left;
     box-sizing: border-box;
 }
 
-footer > article > img{
+footer>article>img {
     width: 100%;
     height: auto;
 }
 
-footer li{
-    float:none;
+footer li {
+    float: none;
 }
